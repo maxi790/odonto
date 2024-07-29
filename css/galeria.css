@@ -2,7 +2,7 @@ h1{
     text-align: center;
 }
 body.iniciog{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #14977244;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -54,3 +54,4 @@ nav {
     background-color: #333333;
     color: #fff;
     padding-top: 20px;}
+    
