@@ -22,6 +22,7 @@ body.iniciog{
     justify-content: center;
     max-width: 1000px;
     margin: 0 auto;
+    
 }
 
 .galeria-item {
@@ -37,15 +38,16 @@ body.iniciog{
     border-radius: 8px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     object-fit: cover;
+    
 }
 
 .galeria-item img:hover {
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
 
 .desc {
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 15px;
     color: #666;
 }
 nav {
