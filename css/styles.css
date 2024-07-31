@@ -1,14 +1,4 @@
 
-
-body.contenedor {
-  background-image: url('../img/njueva.jpg');
-  background-size: cover; 
-  background-repeat: no-repeat; 
-}
-
-  
-
-
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +7,7 @@ body.contenedor {
   
   
   nav {
-    background-color: #33333300;
+    background-color: #33333390;
     color: #fff;
     padding-top: 20px;
      
@@ -29,23 +19,27 @@ body.contenedor {
     margin:  0 auto;
     padding: 0 50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-  }
+
+      }
   
   
   
   .nav-links {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
+    
   }
   
   .nav-links li {
-    margin-left: 200px;
+    margin-left: 20px;
   }
   
   .nav-links li a {
-    color: #cb7474;
+    color: #fff;
     text-decoration: none;
     transition: color 0.3s ease;
    
@@ -65,12 +59,16 @@ body {
       font-family: "Roboto", sans-serif;
       font-weight: 600;
       font-style: normal;
+      background-image: url('../img/njueva.jpg');
+      background-size: cover; 
+      background-repeat: no-repeat; 
+    
       
     }
 
 
 footer {
-    background-color: #333;
+    background-color: #33333394;
     color: #fff;
     text-align: center;
     padding: 03px 0;
@@ -92,7 +90,8 @@ footer p {
   
 
  section div{
-  margin-left: 600px;
-  padding: 150px;
-  font-size: 200%;
+  margin-left: 60px;
+  padding: 10px;
+  font-size: 100%;
    }
+   
