@@ -6,7 +6,7 @@ body.iniciog{
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     font-style: normal;
-    background-image: url(/img/fondo4.jpg);
+    background-image: url('../img/fondo4.jpg');
     background-size: cover;
 }
 
