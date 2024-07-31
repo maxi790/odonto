@@ -15,7 +15,7 @@
   }
   
   .container {
-    max-width: 960px;
+    max-width: 1200px;
     margin:  0 auto;
     padding: 0 50px;
     display: flex;
@@ -61,7 +61,8 @@ body {
       font-style: normal;
       background-image: url('../img/njueva.jpg');
       background-size: cover; 
-      background-repeat: no-repeat; 
+      background-repeat: no-repeat;
+      height: auto; 
     
       
     }
