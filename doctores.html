@@ -10,64 +10,69 @@
 </head>
 <body>
     
-<div>
-    <nav>
-        <div class="container">
-            <ul class="nav-links">
-              <li><a href="index.html">Inicio</a></li>
-              <li><a href="galeria.html">Servicios</a></li>
-              <li><a href="doctores.html">Profecionales</a></li>
-              <li><a href="turno.html">Turnos</a></li>
-            </ul>
-          </div>
-    </nav>
-</div>
-         <div>
-          <h1>Profecionales</h1>
-         </div>
+<nav>
+    <div class="container">
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="galeria.html">Servicios</a></li>
+            <li><a href="doctores.html">Profesionales</a></li>
+            <li><a href="turno.html">Turnos</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header>
+    <h1>Profesionales</h1>
+</header>
+
 <main>
-
-    <div class="card-container">
+    <div class="card-container" id="card-container">
+        
         <div class="card">
-          <img src="img/images.jpeg" alt="Foto del Doctor">
-          <div class="card-content">
-            <h3 class="card-title">Dra. carla gomez</h3>
-            <p class="card-specialty">Especialidad: ortodoncia</p>
-            
-            
-          </div>
+            <img src="img/images.jpeg" alt="Foto del Doctor">
+            <div class="card-content">
+                <h3 class="card-title">Dra. Carla Gómez</h3>
+                <p class="card-specialty">Especialidad: Ortodoncia</p>
+            </div>
         </div>
-        
         <div class="card">
-          <img src="img/images.jpeg" alt="Foto del Doctor">
-          <div class="card-content">
-            <h3 class="card-title">Dra. María González</h3>
-            <p class="card-specialty">Especialidad: odontologia</p>
-            
-            
-          </div>
+            <img src="img/images.jpeg" alt="Foto del Doctor">
+            <div class="card-content">
+                <h3 class="card-title">Dra. María González</h3>
+                <p class="card-specialty">Especialidad: Odontología</p>
+            </div>
         </div>
-        
         <div class="card">
-          <img src="img/images.jpeg" alt="Foto del Doctor">
-          <div class="card-content">
-            <h3 class="card-title">Dra. Ana Ramírez</h3>
-            <p class="card-specialty">Especialidad: prótesis</p>
-            
-           
-          </div>
+            <img src="img/images.jpeg" alt="Foto del Doctor">
+            <div class="card-content">
+                <h3 class="card-title">Dra. Ana Ramírez</h3>
+                <p class="card-specialty">Especialidad: Prótesis</p>
+            </div>
+        </div>
+    </div>
 
-          
-
-          </div>
-        
-
+    <section id="add-card-form">
+        <h2>Agregar Nuevo Profesional</h2>
+        <form id="card-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="specialty">Especialidad:</label>
+            <input type="text" id="specialty" name="specialty" required>
+            <label for="image-url">URL de Imagen (opcional):</label>
+            <input type="url" id="image-url" name="image-url" placeholder="https://example.com/image.jpg">
+            <label for="bg-color">Color de Fondo:</label>
+            <input type="color" id="bg-color" name="bg-color" value="#ffffff">
+            <label for="border-color">Color del Borde:</label>
+            <input type="color" id="border-color" name="border-color" value="#000000">
+            <button type="submit">Agregar Tarjeta</button>
+        </form>
+    </section>
 </main>
 
-
-
-</body>
 <footer>
-  <p>&copy; 2024 Clínica</p>
+    <p>&copy; 2024 Clínica</p>
 </footer>
+
+<script src="js/script.js"></script>
+</body>
 </html>

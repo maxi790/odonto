@@ -63,4 +63,36 @@
     background-repeat: no-repeat;
   }
 
-  
+
+/* Estilos para el formulario */
+#add-card-form {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#add-card-form label {
+  display: block;
+  margin-top: 1rem;
+}
+
+#add-card-form input, #add-card-form button {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+}
+#add-card-form button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+#add-card-form button:hover {
+  background-color: #0056b3;
+}
+
