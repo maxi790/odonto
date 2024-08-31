@@ -15,7 +15,7 @@
   }
   
   .container {
-    max-width: 960px;
+    max-width: 90%;
     margin:  0 auto;
     padding: 0 50px;
     display: flex;
@@ -61,7 +61,7 @@ body {
       font-style: normal;
       background-image: url('../img/njueva.jpg');
       background-size: cover; 
-      background-repeat: no-repeat;
+      background-repeat: inherit;
       
      
     
@@ -101,7 +101,7 @@ footer p {
    
 
   
-  @media (max-width: 1300px) {
+   @media (max-width: 1200px) {
     body {
      height: 1000px;
      
